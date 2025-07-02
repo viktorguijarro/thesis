@@ -1,0 +1,32 @@
+# Requirements for Wikipedia Dataset Generation Scripts
+
+# Core Python packages
+requests>=2.25.0
+
+# Optional packages for enhanced functionality
+# (These are commonly available but not strictly required)
+
+# For JSON pretty-printing and validation
+# json (built-in Python module)
+
+# For better error handling and HTTP requests
+urllib3>=1.26.0
+
+# For text processing and cleaning
+re  # (built-in Python module)
+
+# For time delays and system operations
+time  # (built-in Python module)
+
+# For command-line argument parsing
+argparse  # (built-in Python module)
+
+# For random number generation
+random  # (built-in Python module)
+
+# For type hints (Python 3.5+)
+typing  # (built-in Python module)
+
+# Note: Most dependencies are built-in Python modules
+# Only 'requests' needs to be installed via pip
+
