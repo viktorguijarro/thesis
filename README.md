@@ -102,7 +102,7 @@ python3 combine_datasets.py <positive_file> <negative_file> <output_file>
 Extract only the necessary information
 
 ```bash
-python3 extract_qa_data_fixed.py <combined_data> <output_file>
+python3 extract_qa_data.py <combined_data> <output_file>
 ```
 
 ## Step 10
