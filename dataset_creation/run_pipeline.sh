@@ -44,7 +44,7 @@ echo ""
 # Step 1: Generate Wikipedia paragraphs
 echo "=== Step 1: Extracting Wikipedia Paragraphs ==="
 echo "Processing $ARTICLES articles..."
-python3 dataset_1_wikipedia_extractor_fixed.py --articles "$ARTICLES" --output dataset_1_paragraphs.json
+python3 dataset_1_wikipedia_extractor.py --articles "$ARTICLES" --output dataset_1_paragraphs.json
 
 if [ ! -f "dataset_1_paragraphs.json" ]; then
     echo "❌ Error: Failed to generate Dataset 1"
