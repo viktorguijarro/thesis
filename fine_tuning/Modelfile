@@ -1,2 +1,2 @@
-FROM /Users/viktor/thesis_reproduction/fine_tuning/models/qwen2_0.5B_finetuned
+FROM /Users/viktor/thesis/fine_tuning/models/qwen2_0.5B_finetuned
 TEMPLATE "{{ .Prompt }}"
