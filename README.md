@@ -2,11 +2,9 @@
 
 Welcome to the execution steps for these repository for IOS usage.
 
-Before starting the project, please create 3 different folders. One for the creation of the data, one for the validation and error of the data, and lastly one folder for the fine-tuning. On top of this you need to create 3 folders inside of the fine-tuning folder: data, models, working_qwen3_model.
-
-- From step 1 to 4 we work in the data creation folder.
-- From step 5 to 9 we work in the data error and validation folder.
-- From step 10 to 15 we work in the fine-tuning folder.
+- From step 1 to 4 we work in the dataset_creation folder.
+- From step 5 to 9 we work in the validated_data folder.
+- From step 10 to 15 we work in the fine_tuning folder.
 
 ## Step 1
 
