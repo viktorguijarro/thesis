@@ -34,7 +34,7 @@ ollama serve &
 # Install Mistral model (used for dataset generation)
 ollama pull mistral:latest
 
-# Install Qwen3 model (the model we'll fine-tune)
+# Install Qwen2 model (the model we'll fine-tune)
 ollama pull qwen2:0.5b
 
 # Verify installations
@@ -111,8 +111,8 @@ Set up venv for the fine-tuning
 
 ```bash
 # Create virtual environment for fine-tuning
-python3.11 -m venv qwen3_env
-source qwen3_env/bin/activate
+python3.11 -m venv qwen2_env
+source qwen2_env/bin/activate
 
 # Install required packages
 pip install --upgrade pip
