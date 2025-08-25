@@ -128,7 +128,7 @@ python -m spacy download en_core_web_sm
 
 ## Step 11
 
-Copy the extracted dataset into the fine-tuning folder
+Copy the extracted dataset into the fine-tuning folder and if needed change the file path in the Modelfile file
 
 ## Step 12
 
