@@ -153,7 +153,7 @@ python3 simple_train.py
 Run the evaluation of all 4 models
 
 ```bash
-python3 corrected_four_way_comparison.py \
+python3 four_way_comparison.py \
 --knowledge-base dataset_3_qa_pairs_extracted.json \
 --test-file data/test.jsonl \
 --output comparison_results.json
