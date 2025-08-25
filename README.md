@@ -67,7 +67,7 @@ chmod +x run_pipeline.sh
 
 ## Step 5
 
-Copy the final dataset to the data error and validation folder
+Copy the final dataset to the validated_data folder
 
 ## Step 6
 
@@ -126,7 +126,7 @@ python -m spacy download en_core_web_sm
 
 ## Step 11
 
-Copy the extracted dataset into the fine-tuning folder and if needed change the file path in the Modelfile file
+Copy the extracted dataset into the fine_tuning folder and if needed change the file path in the Modelfile file
 
 ## Step 12
 
