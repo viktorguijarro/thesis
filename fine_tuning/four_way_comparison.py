@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Corrected Four-Way Model Comparison System
+Four-Way Model Comparison System
 ==========================================
 
 Compares four different approaches using the PROPER test set:
@@ -9,11 +9,6 @@ Compares four different approaches using the PROPER test set:
 3. Base Model + RAG (Original + Retrieval)
 4. Fine-tuned Model + RAG (Trained + Retrieval)
 
-This corrected version uses the actual test.jsonl file and the correct model names.
-It also uses the improved fine-tuning-aware prompt structure.
-
-Author: Corrected by Manus AI
-Date: July 30, 2025
 """
 
 import json
