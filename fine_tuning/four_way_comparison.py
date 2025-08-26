@@ -3,7 +3,7 @@
 Four-Way Model Comparison System
 ==========================================
 
-Compares four different approaches using the PROPER test set:
+Compares four different approaches:
 1. Base Model (Original Qwen2-0.5B)
 2. Fine-tuned Model (Trained Qwen2-0.5B)
 3. Base Model + RAG (Original + Retrieval)
@@ -31,7 +31,7 @@ logger = logging.getLogger(__name__)
 
 class CorrectedFourWayComparison:
     """
-    Corrected 4-way model comparison system using proper test set
+    4-way model comparison system using proper test set
     """
 
     def __init__(self, knowledge_base_file: str = "dataset_3_qa_pairs_extracted.json",
